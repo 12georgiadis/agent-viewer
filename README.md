@@ -98,3 +98,5 @@ http://<machine-name>:4200
 - **File uploads** — Drag and drop files onto a card or click `FILE` to send files to an agent.
 - **Re-spawn** — Completed agents can be re-spawned with a new prompt from the same project directory.
 - **Attach** — Click `ATTACH` to copy the `tmux attach` command for direct terminal access.
+- **Git branch detection** — Each card automatically shows the current git branch of the agent's working directory.
+- **Notify on complete** — Check "NOTIFY ON COMPLETE" when spawning to trigger a system notification when the agent finishes (requires `~/.claude/scripts/notify.sh`).
